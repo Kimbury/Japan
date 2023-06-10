@@ -1,0 +1,158 @@
+html {
+    margin: 0;
+}
+.All {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+.Fon {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-color: black;
+}
+.Menu {
+    height: 100%;
+    width: 300px;
+}
+.Menu2 {
+    height: 100%;
+    background-image: url(Image/MenuFon.jpg);
+    background-size: 500%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: FreeMono, monospace;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+.MenuElements {
+    margin: 50px 0 0 0;
+    padding: 0;
+    width: 300px;
+    list-style: none;
+}
+.MenuElement {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.Link:hover {
+    transition: 0.2s;
+    background-color: gray;
+    opacity: 50%;
+    color: red;
+}
+.Link:not(:hover) {
+    transition: 0.2s;
+}
+.JapanFlag {
+    height: 125px;
+    width: 200px;
+    margin-top: 80px;
+    border: 5px Inset gray;
+}
+.Link {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    display: block;
+}
+main {
+    height: 100%;
+    background-color: white;
+    width: 900px;
+    font-family: FreeMono, monospace;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+.MainInside {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    height: 100%;
+}
+.Button {
+    background-image: url(Image/MenuFon.jpg);
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+}
+.ButtonLink {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    display: block;
+}
+.ButtonLink:hover {
+    transition: 0.2s;
+    background-color: gray;
+    border-radius: 50px;
+    opacity: 50%;
+    color: red;
+}
+.ButtonLink:not(:hover) {
+    transition: 0.2s;
+}
+.BlockGallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.BlockGalleryFirst {
+    margin: 0;
+}
+.Picture {
+    width: 700px;
+    border: 5px Inset gray;
+}
+.PictureGallery {
+    width: 370px;
+    border: 5px Inset gray;
+}
+.Pochita {
+    align-self: center;
+    width: 250px;
+}
+.Bread {
+    align-self: center;
+    width: 384px;
+}
+.PochitaText {
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.VK {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Author {
+    color: white;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.TextMain {
+    font-size: 76.5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+img { width:300px; transition:width 0.5s ease; }
+#statya:hover img { width:500px; }
